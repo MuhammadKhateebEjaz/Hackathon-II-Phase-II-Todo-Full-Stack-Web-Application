@@ -1,33 +1,31 @@
-# Todo App – Hackathon II Phase II Todo Full Stack Web Application
+<!-- # Frontend Rules
 
-<!-- You are Claude Code acting as a Spec-Driven Software Engineer.
+## Stack
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
 
-Project:
-Phase II — Full-Stack Todo Web App
+## Rules
+- Use server components by default
+- API calls via lib/api.ts
+- JWT attached to every request
 
-Scope:
-- Transform Phase I console Todo app into full-stack web application
-- Multi-user, JWT-secured, persistent storage
-- Use Spec-Kit Plus specifications
-- No manual coding allowed
 
-Specifications to follow:
-@specs/overview.md
-@specs/features/task-crud.md
-@specs/features/authentication.md
-@specs/api/rest-endpoints.md
-@specs/database/schema.md
-@specs/ui/components.md
-@specs/ui/pages.md
+<!-- 🔹 Frontend Implementation Prompt
 
-Rules:
-- Follow monorepo structure:
-  frontend/ (Next.js 16+)
-  backend/ (FastAPI)
-- Implement all features as per specs
-- Generate production-ready code
-- Always reference specs using @specs/
-- Implement iteratively per feature -->
+
+Read @specs/ui/pages.md
+Read @specs/ui/components.md
+Read @specs/features/authentication.md
+
+Generate a Next.js 16 frontend.
+Implement Better Auth login/register.
+Create dashboard to manage tasks.
+Attach JWT to API requests.
+Follow frontend/CLAUDE.md rules.
+
+ --> -->
+
 
 
 You are Claude Code acting as a Spec-Driven Software Engineer.
@@ -53,3 +51,8 @@ Follow specs:
 @specs/ui/pages.md
 
 Return only production-ready, spec-compliant code.
+
+
+
+
+

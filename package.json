@@ -1,16 +1,20 @@
 {
-  "name": "Phase II Todo Full Stack Web Application",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "Phase II Full Stack Todo App",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "dev": "concurrently \"npm:dev-frontend\" \"npm:dev-backend\"",
-    "dev-frontend": "cd frontend && npm install && npm run dev",
-    "dev-backend": "cd backend && python main.py"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "Muhammad Khateeb Ejaz",
-  "license": "ISC",
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "@types/node": "25.0.3",
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
   }
 }
